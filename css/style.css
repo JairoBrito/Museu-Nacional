@@ -1,0 +1,31 @@
+body{
+    background:#f4f2ec url(../img/fundo.png) repeat-x;
+    font: 12px "Lucida Grande","Lucida Sans Unicode", Arial, Sans-serif;
+}
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+/* Início do cabeçalho */
+header{
+    padding: 15px 0;
+    text-decoration: none;
+}
+#logo{
+    width: 260px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+}
+nav{
+    
+}
+nav ul{
+    float: right;
+}
+nav li{
+    float: left;
+    padding-left: 15px;
+}
+/* Fim do cabeçalho */
+
