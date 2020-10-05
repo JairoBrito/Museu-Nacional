@@ -1,3 +1,4 @@
+/* Configurações padões */
 body{
     background:#f4f2ec url(../img/fundo.png) repeat-x;
     font: 12px "Lucida Grande","Lucida Sans Unicode", Arial, Sans-serif;
@@ -12,6 +13,11 @@ a:link, a:active, a:visited{
 }
 a:hover{
     color: darkgoldenrod; 
+}
+/* Fim Configurações padões */
+/*Início header */
+#logo h1{
+    float: left;
 }
 #logo a{
     width:250px;
@@ -42,4 +48,24 @@ nav li a:link{
 nav li a:hover{
     color: rgb(189, 219, 19);
     border-bottom: 1px solid rgb(189, 219, 19);
+}
+/*Fim header */
+
+/* Conteudo */
+#conteudo{
+    width: 710px;
+    float: left;
+    background-color: honeydew;
+}
+aside{
+    float: right;
+    width: 350px;
+    background-color: honeydew;
+}
+section#visita{
+    background-color: khaki;
+    padding: 30px;
+}
+fieldset{
+    border-radius: 5%;
 }
