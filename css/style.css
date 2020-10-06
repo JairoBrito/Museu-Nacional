@@ -46,12 +46,12 @@ nav li a:link{
     text-transform: uppercase;
 }
 nav li a:hover{
-    color: rgb(189, 219, 19);
-    border-bottom: 1px solid rgb(189, 219, 19);
+    color: darkgoldenrod;
+    border-bottom: 1px solid darkgoldenrod;
 }
 /*Fim header */
 
-/* Conteudo */
+/* Conteudo  */
 #conteudo{
     width: 710px;
     float: left;
@@ -61,11 +61,53 @@ aside{
     float: right;
     width: 350px;
     background-color: honeydew;
+    padding-bottom: 30px;
 }
 section#visita{
     background-color: khaki;
     padding: 30px;
 }
-fieldset{
-    border-radius: 5%;
+/* Formulário */
+h4{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 3px;
+    color: rgb(56, 43, 11) ;
 }
+fieldset{
+    border: none;
+}
+label{
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: lavender;
+    width: 70px;
+}
+input#botão{
+    background-color:darkgoldenrod;
+    color:#fdfdfd ;
+    width: 100%;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+/* Fim do formulário */
+/* Galeria de fotos */
+section#galeria a {
+    display: block;
+    background-image: url(../img/fundo-foto.png);
+    float: left;
+    padding: 15px 15px 18px 15px;
+    margin: 5px 25px;
+}
+section#galeria img{
+    margin-left: 2px;
+    margin-top: 3px;
+}
+/* Fim galeria de fotos */
